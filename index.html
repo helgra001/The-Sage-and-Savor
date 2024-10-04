@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <title>Video Background with jQuery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <meta name="author" content="Helen Grandez">
+        <meta name="description" content="jQuery inlämningsuppgift">
+        <link rel="icon" href="free-cute-cartoon-pastry-icon-free-png.png">
+    </head>
+    <body>
+        <div>
+            <!-- Video Background Section -->
+            <div class="video-container">
+                <video id="background-video" autoplay loop playsinline>
+                    <source src="SageSover.mp4" type="video/mp4">
+                    Din webbläsare stödjer inte video-taggen.
+                </video>
+            </div>
+            <!-- Top Navigation Bar -->
+            <div class="navbar">
+                <div class="menu-left">
+                    <div class="icon-container">
+                        <i class="fas fa-bars burger-icon" id="burgerMenu" style="display: block;"></i> <!-- Burger Icon -->
+                        <i class="fas fa-times close-icon" id="closeMenu" style="display: none; opacity: 0;"></i> <!-- Close Icon -->
+                    </div>
+                    <div id="curtainMenu" class="curtain-menu">
+                        <a href="#" class="curtain-menu-link">Hitta Hit</a>
+                        <a href="#" class="curtain-menu-link">Kontakta oss</a>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <a href="#" class="menu-link">Order Online</a>
+                </div>   
+            </div>           
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
